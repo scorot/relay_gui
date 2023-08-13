@@ -14,6 +14,12 @@ outPin2 = 26  # WiringPi 25
 outPin3 = 20  # WiringPi 28
 outPin4 = 21  # WiringPi 29
 
+outPin1 = 5   # WiringPi 21
+outPin2 = 26  # WiringPi 25
+outPin3 = 6   # WiringPi 22
+outPin4 = 21  # WiringPi 29
+
+
 # GPIO.setmode(GPIO.BOARD)
 # outPin1 = 35
 # outPin2 = 37
@@ -148,22 +154,22 @@ if __name__ == '__main__':
     # offButton.pack()
 
     toggleButton1 = tk.Button(root, text="Relay CH1 OFF",
-                              width=30, height=4,
+                              width=30, height=3,
                               bg='red', command=relayToggle1)
     toggleButton1.pack()
 
     toggleButton2 = tk.Button(root, text="Relay CH2 OFF",
-                              width=30, height=4,
+                              width=30, height=3,
                               bg='red', command=relayToggle2)
     toggleButton2.pack()
 
     toggleButton3 = tk.Button(root, text="Relay CH3 OFF",
-                              width=30, height=4,
+                              width=30, height=3,
                               bg='red', command=relayToggle3)
     toggleButton3.pack()
 
     toggleButton4 = tk.Button(root, text="Relay CH4 OFF",
-                              width=30, height=4,
+                              width=30, height=3,
                               bg='red', command=relayToggle4)
     toggleButton4.pack()
 
