@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Relay GUI
+Comment=A GUI for controling a GPIO relay board
+Exec=python3 /usr/local/bin/relay_tk_gui.py
+Icon=rpi
+Terminal=false
+Type=Application
+Categories=Utility;
+GenericName=Relay GUI
